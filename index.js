@@ -4,6 +4,7 @@ class Polygon{
   constructor(sides){
     this.sides=sides
   }
+<<<<<<< HEAD
  get countSides (){
     return this.sides.length
  
@@ -55,4 +56,10 @@ class Square {
     get isValid(){
   return  this.sides.every( (val, i, arr) => val === arr[0] )  
   }
+=======
+ get countSides (array){
+    return 1
+ 
+  }
+>>>>>>> 86b7b92e4495261518a3f3f77f892512bf3a2360
 }
